@@ -8,7 +8,7 @@ import urllib
 from xml.dom.minidom import parseString
 
 class predict:
-	interval  = 120 # Default polling interval = 2 minutes
+	interval  = 60 # Default polling interval = 2 minutes
 	initSleep = 0   # Stagger polling threads to avoid load spikes
 
 	# predict object initializer.  1 parameter, a 4-element tuple:
